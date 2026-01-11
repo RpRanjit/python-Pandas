@@ -15,4 +15,7 @@ print(df)
 
 # we can also delete multiple column
 df.drop(columns= ["Performance", "Age"], inplace=True)
+# for deleting row simply call the drop mentod and place the index of row you want to deleted drop(0)
+# remember never forget to write intake  = True in both cases
+df.drop(2, inplace= True)
 print(df)
