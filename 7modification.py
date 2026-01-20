@@ -23,7 +23,7 @@ print(df)
 # Now using alternative method called insert()
 # Here we can place the column at speific position as required
 
-# synatx for input(location, df["column_name"], data)
+# synatx for insert(location, df["column_name"], data)
 # lets try
 print("Using inset() method.")
 # Note: you don't have to use df["Column name"] while craeting new column column using insert() method simply write "column name"
