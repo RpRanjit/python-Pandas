@@ -53,7 +53,7 @@ print("For those whose Age is above 22 and salary greater than 50,000.")
 new_rows = df[(df["Age"] > 22) & (df["Salary"] > 50000)]
 print(new_rows)
 
-# we acn also use OR
+# we can also use OR
 print("Those whose age is graeter than 22 or have salary heighere than 50,000.")
 or_rows = df[(df["Age"] > 22) | (df["Salary"] >50000)]
 print(or_rows)
