@@ -22,4 +22,7 @@ Use interpolation on following states:
 1. time series data 
 2. numeric data with trends
 3. avoid dropping rows
+cons
+1. can't be utilize with strings and character
+2. it's output data is prediction which may always not be right
 '''
