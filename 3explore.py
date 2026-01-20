@@ -20,7 +20,7 @@ import pandas as pd
 
 # we get the basic structure of data but
 # 1. we don;t know the n of rows/ column
-# 2. what typr of datatypes are they storing and
+# 2. what type of datatypes are they storing and
 # 3. and are there any data missiong or not
 
 # that why we use info() method which gives
